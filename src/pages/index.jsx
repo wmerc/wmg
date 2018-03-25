@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import Header from "../components/Header/Header";
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
