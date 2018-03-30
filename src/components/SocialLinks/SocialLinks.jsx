@@ -35,12 +35,6 @@ class SocialLinks extends Component {
 
     return (
       <div className="social-links">
-        <RedditShareButton url={url} title={post.title}>
-          <RedditIcon round size={iconSize} />
-          <RedditShareCount url={url}>
-            {count => <div className="share-count">{filter(count)}</div>}
-          </RedditShareCount>
-        </RedditShareButton>
         <TwitterShareButton url={url} title={post.title}>
           <TwitterIcon round size={iconSize} />
         </TwitterShareButton>
@@ -66,9 +60,6 @@ class SocialLinks extends Component {
             {count => <div className="share-count">{filter(count)}</div>}
           </LinkedinShareCount>
         </LinkedinShareButton>
-        <TelegramShareButton url={url}>
-          <TelegramIcon round size={iconSize} />
-        </TelegramShareButton>
       </div>
     );
   }

@@ -22,17 +22,22 @@ module.exports = {
     {
       label: "GitHub",
       url: "https://github.com/WillMerchan",
-      iconClassName: "fa fa-github"
     },
     {
       label: "Twitter",
       url: "https://twitter.com/willmerchan",
-      iconClassName: "fa fa-twitter"
     },
     {
       label: "Email",
       url: "mailto:willmerchan@gmail.com",
-      iconClassName: "fa fa-envelope"
+    },
+    {
+      label: "CodePen",
+      url: "https://codepen.io/willm",
+    },
+    {
+      label: "LinkedIn",
+      url: "https://www.linkedin.com/in/willmerchan"
     }
   ],
   copyright: "Copyright © 2018. Will Merchan", // Copyright string for the footer of the website and RSS feed.
