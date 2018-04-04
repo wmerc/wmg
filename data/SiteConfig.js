@@ -1,5 +1,5 @@
 module.exports = {
-  blogPostDir: "sample-posts", // The name of directory that contains your posts.
+  blogPostDir: "posts", // The name of directory that contains your posts.
   siteTitle: "Will Merchan", // Site title.
   siteTitleAlt: "Design and Development Portfolio", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
@@ -11,12 +11,12 @@ module.exports = {
   googleAnalyticsID: "UA-47311644-5", // GA tracking ID.
   disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
-  userName: "Advanced User", // Username to display in the author segment.
+  userName: "Will", // Username to display in the author segment.
   userTwitter: "willmerchan", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Ossining, New York", // User location to display in the author segment.
   userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
   userDescription:
-    "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
+    "Graphic designer turned devloper", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {

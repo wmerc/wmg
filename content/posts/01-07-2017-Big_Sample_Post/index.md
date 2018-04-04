@@ -1,9 +1,9 @@
 ---
-title: "Big Test"
+title: "Big Blog 2 Test"
+type: "work"
 cover: "https://unsplash.it/400/300/?random?BigTest"
 category: "moar"
-date: "01/03/2018"
-slug: "Big-Sample_Test"
+date: 2017-01-07
 tags:
     - test
     - huge

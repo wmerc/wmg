@@ -11,11 +11,30 @@
 .nav a {
   color: #69798c;
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 400;
   margin: 0 10px;
   text-decoration: none;
   transition: all .2s ease-out;
   &:hover {
     color: #546170;
   }
+}
+
+a.nav-active {
+  color: #546170;
+}
+
+.nav-underline--home {
+  height: 2px;
+  width: 48px;
+  background: #5bc4be;
+  transform: translateX(10px);
+}
+
+.nav-underline--blog {
+  height: 2px;
+  width: 48px;
+  background: #5bc4be;
+  transform: translateX(72px);
 }

@@ -3,3 +3,22 @@
     flex-direction: column;
     justify-content: center;
 }
+
+
+.post-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.post-content {
+	max-width: 900px;
+}
+
+.post-title {
+	font-family: 'Bree Serif', serif;
+}
+
+.post-content {
+	font-family: 'Hind Siliguri', sans-serif;
+}

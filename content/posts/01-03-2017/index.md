@@ -1,8 +1,9 @@
 ---
-title: "Angels of Mist"
+title: "Blog 1"
+type: "blog"
 cover: "https://unsplash.it/400/300/?random?AngelsofMist"
 category: "test3"
-date: "01/03/2017"
+date: 2017-01-03
 tags:
     - cheese
     - other

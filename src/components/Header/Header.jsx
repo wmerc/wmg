@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Link from "gatsby-link";
 import "./Header.css";
-import HeaderSVG from '../SVG/HeaderBackground';
 import HeaderLogo from '../SVG/HeaderLogo';
 import Nav from '../Nav/Nav';
 import UserLinks from '../UserLinks/UserLinks';
@@ -9,15 +8,16 @@ import config from "../../../data/SiteConfig";
 
 class Header extends Component {
   render() {
+    const { location } = this.props;
     return (
       <div className="header-wrapper">
       <header className="header">        
         <Link to="/">
-          <HeaderLogo/>
+          <HeaderLogo />
         </Link>  
-        <UserLinks config={config}/>     
+        <UserLinks config={config} />     
       </header>
-      <Nav/> 
+      <Nav location={location} /> 
       </div>
     );
   }

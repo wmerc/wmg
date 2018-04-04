@@ -1,0 +1,86 @@
+.blog-listing {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.blog {
+	background: white;
+	/*border: 1px solid #efefef;*/
+	border-radius: 3px;
+	/*box-shadow: 0 0 42px rgba(14,30,37,.09);*/
+	display: flex;
+	flex: 0 1 auto;
+	margin: 15px;
+	text-decoration: none;
+	transition: all .25s ease-out;
+	max-width:700px;
+	&:hover {
+		/*box-shadow: 0 8px 40px rgba(100,100,100,.15),0 2px 26px rgba(0,0,0,.08);*/
+		/*transform: translateY(-1px) scale(1.01);*/
+	}
+	&:nth-of-type(1) {
+		margin-top: 40px;
+	}
+}
+
+.blog a {
+	text-decoration: none;
+}
+
+.blog-date {
+	background: #798087;
+	border-radius: 3px;
+	color: white;
+	display: flex;
+	font-family: 'Oswald', sans-serif;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 4px 8px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.blog-date-month {
+	font-weight: 300;
+	letter-spacing: 1.5px;
+	font-size: 16px;
+}
+
+.blog-date-day {
+	font-weight: 700;
+	font-size: 26px;
+	letter-spacing: 2px;
+	line-height: 25px;
+}
+
+.blog-date-year {
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+.blog-group {
+	display: flex;
+}
+
+.blog-text {
+	padding: 0 12px;
+	color: #444444;
+}
+
+.blog-text h2 {
+	font-family: 'Bree Serif', serif;
+	color: #5bc4be;
+	margin: .1em;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.blog-text p {
+	color: #546170;
+	font-family: 'Hind Siliguri', sans-serif;
+	margin: .1em;
+}
