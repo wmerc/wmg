@@ -1,11 +1,8 @@
 import React from "react";
 import Helmet from "react-helmet";
-import UserInfo from "../components/UserInfo/UserInfo";
-import Disqus from "../components/Disqus/Disqus";
 import PostTags from "../components/PostTags/PostTags";
 import SocialLinks from "../components/SocialLinks/SocialLinks";
 import SEO from "../components/SEO/SEO";
-import Header from "../components/Header/Header";
 import config from "../../data/SiteConfig";
 import "./b16-tomorrow-dark.css";
 import "./post.css";
@@ -14,6 +11,7 @@ export default class PostTemplate extends React.Component {
   render() {
     const { slug } = this.props.pathContext;
     const postNode = this.props.data.markdownRemark;
+    const { transition } = this.props;
     const post = postNode.frontmatter;
     if (!post.id) {
       post.id = slug;
@@ -28,8 +26,7 @@ export default class PostTemplate extends React.Component {
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
         <div>
-          
-          <div className="post-wrapper" style={this.props.transition.style}>
+          <div className="post-wrapper" style={transition.style}>
             <h1 className="post-title">{post.title}</h1>
             <div className="post-content" dangerouslySetInnerHTML={{ __html: postNode.html }} />
             <div className="post-meta">
