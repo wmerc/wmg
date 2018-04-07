@@ -6,12 +6,13 @@ import config from "../../data/SiteConfig";
 
 class Index extends React.Component {
   render() {
+    const { transition } = this.props;
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <div className="index-container">
         <Helmet title={config.siteTitle} />
         <SEO postEdges={postEdges} />
-        <div style={this.props.transition.style}>
+        <div style={transition && transition.style}>
           <PostListing postEdges={postEdges} />
         </div>
       </div>

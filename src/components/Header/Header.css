@@ -27,4 +27,13 @@
 }
 
 
+@media only screen and (max-device-width: 600px) {
+  .header {
+    justify-content: center;
+  } 
 
+  .header-logo {
+    margin: 0;
+    width: 90vw;
+  }
+}

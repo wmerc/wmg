@@ -26,7 +26,7 @@ export default class PostTemplate extends React.Component {
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
         <div>
-          <div className="post-wrapper" style={transition.style}>
+          <div className="post-wrapper" style={transition && transition.style}>
             <div className="post-meta">
               <div>{post.date}</div>
               <div>{post.type === "blog" ? `${postNode.timeToRead} minutes to read` : post.category}</div>

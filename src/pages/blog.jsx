@@ -7,11 +7,12 @@ import config from "../../data/SiteConfig";
 class BlogPage extends React.Component {
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
+    const { transition } = this.props;
     return (
       <div className="index-container">
         <Helmet title={`Blog | ${config.siteTitle}`} />
         <SEO postEdges={postEdges} />
-        <div style={this.props.transition.style}>
+        <div style={transition && transition.style}>
           <BlogListing postEdges={postEdges} />
       	</div>
       </div>
