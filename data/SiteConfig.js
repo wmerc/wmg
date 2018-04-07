@@ -4,12 +4,12 @@ module.exports = {
   siteTitleAlt: "Design and Development Portfolio", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://willmerchan.com", // Domain of your website without pathPrefix.
-  pathPrefix: "/wmg", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: "Writing and case studies on everything design and development", // Website description used for RSS feeds/meta description tag.
+  pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+  siteDescription: "Projects helped build and things I've learned along the way.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteFBAppID: "1825356251115265", // FB Application ID for using app insights
-  googleAnalyticsID: "UA-47311644-5", // GA tracking ID.
-  disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // Disqus shortname.
+  siteFBAppID: "1670630673189505", // FB Application ID for using app insights
+  googleAnalyticsID: "UA-30386537-2", // GA tracking ID.
+  disqusShortname: "willmerchan", // Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
   userName: "Will", // Username to display in the author segment.
   userTwitter: "willmerchan", // Optionally renders "Follow Me" in the UserInfo segment.

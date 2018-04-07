@@ -25,8 +25,8 @@ class BlogListing extends React.Component {
       <div className="blog-listing">
         {/* Your blog list here. */
         blogList.map(blog => (
-          <div className="blog">
-            <Link to={blog.path} key={blog.title}>
+          <div className="blog" key={blog.title}>
+            <Link to={blog.path}>
               <div className="blog-group">
                 <div className="blog-date">
                   <div className="blog-date-month">{blog.month}</div>

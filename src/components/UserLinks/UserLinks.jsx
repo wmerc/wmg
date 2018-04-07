@@ -13,17 +13,17 @@ class UserLinks extends Component {
     }
     return (
       <div className="user-links">
-        <a href="https://twitter.com/willmerchan">
-          <TwitterIcon/>
+        <a href="https://twitter.com/willmerchan" target="_blank" rel="noopener noreferrer">
+          <TwitterIcon />
         </a>
-        <a href="https://github.com/WillMerchan">
-          <GitHubIcon/>
+        <a href="https://github.com/WillMerchan" target="_blank" rel="noopener noreferrer">
+          <GitHubIcon />
         </a>
-        <a href="https://www.linkedin.com/in/willmerchan/">
-          <LinkedInIcon/>
+        <a href="https://www.linkedin.com/in/willmerchan/" target="_blank" rel="noopener noreferrer">
+          <LinkedInIcon />
         </a>
-        <a href="mailto:willmerchan@gmail.com">
-          <EmailIcon/>
+        <a href="mailto:willmerchan@gmail.com" target="_blank" rel="noopener noreferrer">
+          <EmailIcon />
         </a>
       </div>
     )

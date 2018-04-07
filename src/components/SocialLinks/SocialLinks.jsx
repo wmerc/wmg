@@ -30,7 +30,7 @@ class SocialLinks extends Component {
     const realPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
     const url = config.siteUrl + realPrefix + postPath;
 
-    const iconSize = mobile ? 36 : 48;
+    const iconSize = mobile ? 32 : 40;
     const filter = count => (count > 0 ? count : "");
 
     return (

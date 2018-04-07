@@ -27,10 +27,14 @@ export default class PostTemplate extends React.Component {
         <SEO postPath={slug} postNode={postNode} postSEO />
         <div>
           <div className="post-wrapper" style={transition.style}>
+            <div className="post-meta">
+              <div>{post.date}</div>
+              <div>{post.type === "blog" ? `${postNode.timeToRead} minutes to read` : post.category}</div>
+            </div>
             <h1 className="post-title">{post.title}</h1>
             <div className="post-content" dangerouslySetInnerHTML={{ __html: postNode.html }} />
-            <div className="post-meta">
-              <PostTags tags={post.tags} />
+            <div className="post-share-links">
+              <div>Share with your friends</div>
               <SocialLinks postPath={slug} postNode={postNode} />
             </div>
           </div>
@@ -50,9 +54,10 @@ export const pageQuery = graphql`
       frontmatter {
         title
         cover
-        date
+        date(formatString: "MMMM DD, YYYY")
         category
         tags
+        type
       }
       fields {
         slug

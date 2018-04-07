@@ -1,24 +1,70 @@
-.post-meta {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
 .post-wrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	max-width: 900px;
+	margin: 40px auto;
+	padding: 0 20px;
 }
 
-.post-content {
-	max-width: 900px;
+.post-meta {
+	color: #5bc4be;
+    display: flex;
+    font-family: 'Bree Serif', serif;
+    justify-content: space-between;
+    width: 100%;
+    text-transform: capitalize;
 }
 
 .post-title {
 	font-family: 'Bree Serif', serif;
+	color: #546170;
+	/* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
 }
 
 .post-content {
 	font-family: 'Hind Siliguri', sans-serif;
+	/* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+}
+
+.post-share-links {
+	background-color: #efefef;
+	border: 2px dashed #e1e1e1;
+	color: #546170;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	font-family: 'Bree Serif', serif;
+	padding: 10px;
 }
