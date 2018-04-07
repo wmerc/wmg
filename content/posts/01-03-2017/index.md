@@ -8,8 +8,6 @@ tags:
     - cheese
     - other
 ---
-# Ab dicemur cura
-
 ## Mane oscula anxia
 
 Lorem markdownum alius, **non voluntas supremaque**: canes ager cingere quis;
