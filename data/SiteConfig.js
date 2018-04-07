@@ -4,7 +4,7 @@ module.exports = {
   siteTitleAlt: "Design and Development Portfolio", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://willmerchan.com/", // Domain of your website without pathPrefix.
-  pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+  pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Projects helped build and things I've learned along the way.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "1670630673189505", // FB Application ID for using app insights
