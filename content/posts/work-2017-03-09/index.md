@@ -1,12 +1,12 @@
 ---
-title: "Blog 1"
-type: "blog"
+title: "Event Site CMS"
+type: "work"
 cover: "https://unsplash.it/400/300/?random?AngelsofMist"
-category: "test3"
-date: 2017-01-03
+category: "Product Design"
+date: 2017-03-09
 tags:
-    - cheese
-    - other
+    - Design
+    - UX
 ---
 ## Mane oscula anxia
 
