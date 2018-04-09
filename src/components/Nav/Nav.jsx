@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from 'react-dom';
+import "react-web-animations-js-wrapper";
 import Link from "gatsby-link";
 import "./Nav.css";
 
@@ -32,18 +33,6 @@ class Nav extends Component {
         })
     }
   }
-
-
-    //   this.underline.animate ([
-    //     { opacity: 1, top: "42px"},
-    //     { opacity: 0, top:"48px"}
-    //   ], {
-    //     duration: 300,
-    //     fill: "forwards",
-    //     easing: "ease-out",
-    //     iterations: 1
-    //   })
-    // }
     
   render() {
     return (
