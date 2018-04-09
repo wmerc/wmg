@@ -28,7 +28,7 @@ class PostListing extends React.Component {
           <div className="post" key={post.title}>
             <Link to={post.path}>
               <img src={post.cover} alt={post.title} />
-              <div className="post-title">
+              <div className="post-listing-item-title">
                 <h3>{post.title}</h3>
               </div>
             </Link>

@@ -40,7 +40,7 @@
 	margin: 0;
 }
 
-.post-title {
+.post-listing-item-title {
 	display: flex;
 	align-items: center;
 	height: 58px;
