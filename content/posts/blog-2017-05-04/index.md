@@ -1,7 +1,7 @@
 ---
 title: "Design Documentation & Communication"
 type: "blog"
-cover: "assets/images/blog/wm-blog-designdoc-header"
+cover: "assets/images/blog/wm-blog-designdoc-header.jpg"
 category: "Design"
 date: 2017-05-04
 tags:
