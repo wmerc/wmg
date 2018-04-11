@@ -8,7 +8,6 @@ tags:
     - Product Design
     - Documentation
 ---
-##Current Pain Points
 The design to development workflow is a constantly changing process with new apps in the space regularly. This goes hand in hand with prototyping and the level to which the prototype resembles the production level code. The current pain point is that after the initial designs are done and handed off to developers, it becomes very time consuming to keep the designs up to date, when rarely do designs end up as a 1:1 replica of what's on production. There are changes made for content considerations, sprint bandwidth and developer feedback. We needed a way for our design files to serve as a source of truth, which was pushed up to our prototypes for stakeholder and product manager review, and then as well references in the documentation used by our developers when building out the products.
 
 ##Filtering Out The Noise

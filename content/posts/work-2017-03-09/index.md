@@ -8,8 +8,6 @@ tags:
     - Design
     - UX
 ---
-## Mane oscula anxia
-
 Lorem markdownum alius, **non voluntas supremaque**: canes ager cingere quis;
 rerum? Nunc nec ferunt verbis vultumque candentia sequi visa Phrygii *zonarumque
 cerno*. Creatos plangente voluptas est nomen opes: nequeo ullus; accipiunt

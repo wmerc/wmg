@@ -9,7 +9,6 @@ tags:
     - Self Development
     - Yearly Recap
 ---
-##2016 Mission
 I went into 2016 with the goal of leveling up my development skills and filling in some of the gaps I was missing when building front ends. Before this I had spent most of my development time reverse-engineering existing code and tweaking parts to achieve a desired outcome. I didn't have a solid understanding of the languages and what was happening as a whole. I started this process at the end of 2015 by taking part in [makerscabin.com](https://makerscabin.com/). It definitely provided a great explanation of core PHP principles, working with templates and building databases. 
 
 At this point I knew some more specific areas I wanted to learn about, including Laravel, React, Flexbox, and a better handle on SASS. I took [reactforbeginners.com](https://reactforbeginners.com/) which was an incredible dive into React and allowed me to use it on my own site, with much less confusion than I would have had otherwise. At the same time I was still working on my front end toolset including learning Flexbox via [flexbox.io](http://flexbox.io/) and [flexboxfroggy.com](http://flexboxfroggy.com/). I was working on the front end a lot and decided to dedicate some time to improving my design process as well, by improving my Sketch workflow with the help of [leveluptutorials.com](https://leveluptutorials.com/tutorials).

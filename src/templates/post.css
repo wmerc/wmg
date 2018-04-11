@@ -55,6 +55,10 @@
   max-width: 100%;
 }
 
+.post-content img {
+  width: 100%;
+}
+
 .post-share-links {
 	background-color: #efefef;
 	border: 2px dashed #e1e1e1;
