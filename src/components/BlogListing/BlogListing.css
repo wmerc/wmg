@@ -9,12 +9,12 @@
 	border-radius: 3px;
 	display: flex;
 	flex: 0 1 auto;
-	margin: 15px;
+	margin: 25px 15px;
 	text-decoration: none;
 	transition: all .25s ease-out;
 	max-width:700px;
 	&:nth-of-type(1) {
-		margin-top: 40px;
+		margin-top: 50px;
 	}
 }
 
@@ -99,5 +99,11 @@
 	}
 	.blog-text {
 		padding: 0;
+	}
+	.blog {
+		margin: 20px 15px;
+		&:nth-of-type(1) {
+		margin-top: 40px;
+	}
 	}
 }

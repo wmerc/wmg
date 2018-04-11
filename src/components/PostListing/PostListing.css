@@ -56,3 +56,22 @@
 		width: 100%;
 	}
 }
+
+@media only screen and (min-device-width: 1400px) {
+	.post {
+		width: 450px;
+		height: 300px;
+	}
+
+	.post img {
+		width: 448px;
+		height: 195px;
+	}
+
+	.post-listing-item-title {
+		height: 98px;
+		padding: 0 5px;
+		font-size: 20px;
+	}
+
+}
