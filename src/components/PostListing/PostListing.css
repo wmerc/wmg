@@ -48,7 +48,7 @@
 	padding: 0 5px;
 }
 
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-width: 600px) {
 	.post {
 		width: 100%;
 	}
@@ -57,7 +57,7 @@
 	}
 }
 
-@media only screen and (min-device-width: 1400px) {
+@media only screen and (min-width: 1400px) {
 	.post {
 		width: 450px;
 		height: 300px;
