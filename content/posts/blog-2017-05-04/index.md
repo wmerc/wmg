@@ -1,7 +1,7 @@
 ---
 title: "Design Documentation & Communication"
 type: "blog"
-cover: "https://unsplash.it/400/300/?random?BigTest"
+cover: "/assets/images/wm-blog-designdoc-body"
 category: "Design"
 date: 2017-05-04
 tags:
