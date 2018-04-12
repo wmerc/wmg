@@ -32,6 +32,7 @@ export default class PostTemplate extends React.Component {
               <div>{post.type === "blog" ? `${postNode.timeToRead} minutes to read` : post.category}</div>
             </div>
             <h1 className="post-title">{post.title}</h1>
+            <img className="post-cover" src={post.cover} alt={post.title}/>
             <div className="post-content" dangerouslySetInnerHTML={{ __html: postNode.html }} />
             <div className="post-share-links">
               <div>Share with your friends</div>

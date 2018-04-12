@@ -1,7 +1,7 @@
 ---
 title: "Media Site CMS"
 type: "work"
-cover: "assets/images/portfolio/NewsSite-featured-1481006539.jpg"
+cover: "/assets/images/portfolio/NewsSite-featured-1481006539.jpg"
 category: "Product Design"
 date: 2016-12-02
 tags:

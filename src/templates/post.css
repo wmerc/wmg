@@ -57,6 +57,8 @@
 
 .post-content img {
   width: 100%;
+  border: 1px solid #efefef;
+  box-shadow: 0 0 14px rgba(0,0,0,.05);
 }
 
 .post-share-links {
@@ -71,6 +73,11 @@
 	padding: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.post-cover {
+  width:115%;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-device-width: 600px) {
