@@ -13,6 +13,7 @@ In an attempt to unify the array of sites being used by the various business uni
 
 ##UX
 As with our other projects, we determined a single group which would act as a project owner and provide feedback and data on issues with the existing systems. On the design side this allows us to create user stories and understand the success criteria of the design. We took this and created our initial wireframes and iterated upon after presenting them to the client. Since we wanted this platform to apply to as many types of events as possible, designing it in a component based fashion would allow site admin to choose which blocks they needed and could do without. The design had to allow for the neighboring of unknown components and follow a modular layout in which each component is independent of the others.
+
 ![Events platform wireframe](/assets/images/portfolio/Events-wireframe.jpg)
 
 ##UI
