@@ -61,6 +61,12 @@
   box-shadow: 0 0 14px rgba(0,0,0,.05);
 }
 
+.post-content-image-small {
+  width: 300px !important;;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
 .post-share-links {
 	background-color: #efefef;
 	border: 2px dashed #e1e1e1;

@@ -27,7 +27,7 @@ export const pageQuery = graphql`
   query BlogQuery {
     allMarkdownRemark(
       limit: 2000
-      filter: {frontmatter: {type: {eq: "blog"}}}
+      filter: {frontmatter: {type: {eq: "blog"}, published: {eq: "yes"}}}
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

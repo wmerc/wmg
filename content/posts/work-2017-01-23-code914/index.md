@@ -8,6 +8,7 @@ tags:
     - Design
     - Front End Development
     - Branding
+published: "yes"
 ---
 Looking to serve the growing tech community in Westchester, NY I along with a friend decided to try and validate our idea of a hackathon in the area. We came up with [Code914.com](http://code914.com). I have attended and mentored them before, and love the work ethic they inspire and think it's a great way to see what you can produce in a short amount of time. I created the brand with inspiration from the areas proximity to NYC and wanting to use a duotone effect. I started this process in Sketch, working through some layout and branding options. You can see I started with something very different than what I ended with.
 

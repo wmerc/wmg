@@ -9,6 +9,7 @@ tags:
     - Front End Development
     - Branding
     - SEO
+published: "yes"
 ---
 Whichever way you pronounce favicon, it's probably one of those items on your site checklist which you remember to get to right before you launch your site, or maybe even a little after you launch it. Although a simple concept, there's a lot more to favicons these days than a simple favicon.ico file. 
 

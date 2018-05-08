@@ -10,6 +10,7 @@ tags:
     - UI 
     - Drupal
     - Art Direction
+published: "yes"
 ---
 The challenge was to create a news platform which would be able to serve as a template for multiple brands and iterations. The brands ranged from the hospitality to biotechnology, with a wide array of branding standards and existing features to be migrated.
 

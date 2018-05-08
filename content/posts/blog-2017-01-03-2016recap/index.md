@@ -8,6 +8,7 @@ tags:
     - Learning
     - Self Development
     - Yearly Recap
+published: "yes"
 ---
 I went into 2016 with the goal of leveling up my development skills and filling in some of the gaps I was missing when building front ends. Before this I had spent most of my development time reverse-engineering existing code and tweaking parts to achieve a desired outcome. I didn't have a solid understanding of the languages and what was happening as a whole. I started this process at the end of 2015 by taking part in [makerscabin.com](https://makerscabin.com/). It definitely provided a great explanation of core PHP principles, working with templates and building databases. 
 

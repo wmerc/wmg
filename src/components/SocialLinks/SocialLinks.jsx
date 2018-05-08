@@ -7,18 +7,13 @@ import {
   GooglePlusShareButton,
   LinkedinShareButton,
   TwitterShareButton,
-  TelegramShareButton,
-  RedditShareButton,
   FacebookShareCount,
   GooglePlusShareCount,
   LinkedinShareCount,
-  RedditShareCount,
   FacebookIcon,
   TwitterIcon,
-  TelegramIcon,
   GooglePlusIcon,
   LinkedinIcon,
-  RedditIcon
 } from "react-share";
 import config from "../../../data/SiteConfig";
 import "./SocialLinks.css";
@@ -27,7 +22,7 @@ class SocialLinks extends Component {
   render() {
     const { postNode, postPath, mobile } = this.props;
     const post = postNode.frontmatter;
-    const realPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
+    const realPrefix = config.pathPrefix === "/" ? "/" : config.pathPrefix;
     const url = config.siteUrl + realPrefix + postPath;
 
     const iconSize = mobile ? 32 : 40;
@@ -38,12 +33,6 @@ class SocialLinks extends Component {
         <TwitterShareButton url={url} title={post.title}>
           <TwitterIcon round size={iconSize} />
         </TwitterShareButton>
-        <GooglePlusShareButton url={url}>
-          <GooglePlusIcon round size={iconSize} />
-          <GooglePlusShareCount url={url}>
-            {count => <div className="share-count">{filter(count)}</div>}
-          </GooglePlusShareCount>
-        </GooglePlusShareButton>
         <FacebookShareButton url={url} quote={postNode.excerpt}>
           <FacebookIcon round size={iconSize} />
           <FacebookShareCount url={url}>
@@ -60,6 +49,12 @@ class SocialLinks extends Component {
             {count => <div className="share-count">{filter(count)}</div>}
           </LinkedinShareCount>
         </LinkedinShareButton>
+        <GooglePlusShareButton url={url}>
+          <GooglePlusIcon round size={iconSize} />
+          <GooglePlusShareCount url={url}>
+            {count => <div className="share-count">{filter(count)}</div>}
+          </GooglePlusShareCount>
+        </GooglePlusShareButton>
       </div>
     );
   }

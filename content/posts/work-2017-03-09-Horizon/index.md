@@ -8,6 +8,7 @@ tags:
     - Product Design
     - Art Direction
     - Branding
+published: "yes"
 ---
 In an attempt to unify the array of sites being used by the various business units in the company, we created a new platform on Drupal 8. The goal of the project was to entice visitors to become registrants of the event, allow sponsors to get more information about partnering with the event, and to inform users of event schedules, speakers and basic information. As much of a focus the end user's experience was, the ease of use from the program admin was a large focus as well. And the flexibility of the platform to meet the needs to the various groups which would use this platform. 
 
