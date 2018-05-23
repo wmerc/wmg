@@ -51,3 +51,24 @@ Flexbox as a grid system is a hack
 
 Think about flex tonatiner as row or column. main axis or cross axis
 
+
+
+Flexbox has been around since 2009, but there's been issues with it
+
+Parent is flex container
+child is flex item
+
+
+Disadvantage: wasn't designed to be locked down for layouts. works in 1 dimension only.
+browser support and syntax is challening
+
+main axis and cross axis
+
+3 versions of flexbox
+
+flexbox. ie9 and less not surported.
+
+flex-flow combines flex direction and flex wrap
+flex-flow: column wrap;
+
+

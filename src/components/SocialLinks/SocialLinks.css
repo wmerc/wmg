@@ -11,8 +11,20 @@
 .social-links > div {
     margin: 5px 15px;
     cursor: pointer;
+    position: relative;
 }
 
 .share-count {
+    position: absolute;
+    top: -6px;
+    right: -8px;
+    background: palevioletred;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 17px;
     text-align: center;
+    font-size: 11px;
+    border: 1px solid indianred;
+    color: white;
 }

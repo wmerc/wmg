@@ -26,7 +26,7 @@ class SocialLinks extends Component {
     const url = config.siteUrl + realPrefix + postPath;
 
     const iconSize = mobile ? 32 : 40;
-    const filter = count => (count > 0 ? count : "");
+    const filter = count => (count > 0 ? count : "0");
 
     return (
       <div className="social-links">
@@ -34,26 +34,27 @@ class SocialLinks extends Component {
           <TwitterIcon round size={iconSize} />
         </TwitterShareButton>
         <FacebookShareButton url={url} quote={postNode.excerpt}>
-          <FacebookIcon round size={iconSize} />
           <FacebookShareCount url={url}>
             {count => <div className="share-count">{filter(count)}</div>}
           </FacebookShareCount>
+          <FacebookIcon round size={iconSize} />
         </FacebookShareButton>
         <LinkedinShareButton
           url={url}
           title={post.title}
           description={postNode.excerpt}
         >
-          <LinkedinIcon round size={iconSize} />
           <LinkedinShareCount url={url}>
             {count => <div className="share-count">{filter(count)}</div>}
           </LinkedinShareCount>
+          <LinkedinIcon round size={iconSize} />
+          
         </LinkedinShareButton>
         <GooglePlusShareButton url={url}>
-          <GooglePlusIcon round size={iconSize} />
           <GooglePlusShareCount url={url}>
             {count => <div className="share-count">{filter(count)}</div>}
           </GooglePlusShareCount>
+          <GooglePlusIcon round size={iconSize} />
         </GooglePlusShareButton>
       </div>
     );

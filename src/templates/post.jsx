@@ -1,11 +1,13 @@
 import React from "react";
 import Helmet from "react-helmet";
+import "prismjs/themes/prism-tomorrow.css";
 import PostTags from "../components/PostTags/PostTags";
 import SocialLinks from "../components/SocialLinks/SocialLinks";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
-import "./b16-tomorrow-dark.css";
+//import "./b16-tomorrow-dark.css";
 import "./post.css";
+
 
 export default class PostTemplate extends React.Component {
   render() {
