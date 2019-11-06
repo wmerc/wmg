@@ -37,6 +37,7 @@ export default class HTML extends React.Component {
           {this.props.headComponents}
           <link rel="shortcut icon" href={favicon} />
           <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Hind+Siliguri|Oswald:300,700" rel="stylesheet" />
+          <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
           {css}
         </head>
         <body>
