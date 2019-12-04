@@ -45,4 +45,6 @@ We extracted a style guide from the comp, it was important to do this after the 
 - In addition to creating the content types which could be added to the platform, showcasing best practices around these content types is important in ensuring quality standards are met.
 - There will be instances where a brand's color palette won't seamlessly integrate into the platform, so there needs to be a way to handle that gracefully.
 
+![Final sites](/assets/images/portfolio/Events-finalsites.jpg)
+
 Some of the sites already built on the platform can be viewed here: [ncbshow.com](http://www.ncbshow.com/), [sensorsexpo.com](http://www.sensorsexpo.com/), [hotelroi.com](http://www.hotelroi.com/), [StreamTVShow.com](https://www.streamtvshow.com/). You can see how the sites look different with various modules being used and the component-based system in place. The components continue to be improved and added to.
